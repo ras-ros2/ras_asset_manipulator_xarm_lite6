@@ -1,6 +1,6 @@
 asset_name = 'xarm_lite6'
 import os
-from oss_resource_lib.types.manipulator.config import ManipulatorCfg
+from ras_resource_lib.types.manipulator.config import ManipulatorCfg
 from trajectory_msgs.msg import JointTrajectory
 from launch.launch_context import LaunchContext
 from launch.logging import get_logger
