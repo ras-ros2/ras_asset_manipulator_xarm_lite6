@@ -33,19 +33,19 @@
 
     <gazebo reference="${prefix}realsense_camera">
       <sensor name="realsense_d435" type="rgbd_camera">
-        <pose>0 0 0 0 0 -1.571</pose>
+        <pose>0 0 0 4.71 4.71 0</pose>
         <update_rate>60</update_rate>
         <camera name="camera">
           <horizontal_fov>1.0472</horizontal_fov>
           <lens>
             <intrinsics>
               <!-- fx = fy = width / ( 2 * tan (hfov / 2 ) ) -->
-              <fx>554.25469</fx>
-              <fy>554.25469</fy>
+              <fx>931.1829833984375</fx>
+              <fy>931.1829833984375</fy>
               <!-- cx = ( width + 1 ) / 2 -->
-              <cx>320.5</cx>
+              <cx>640</cx>
               <!-- cy = ( height + 1 ) / 2 -->
-              <cy>240.5</cy>
+              <cy>360</cy>
               <s>0</s>
             </intrinsics>
           </lens>
@@ -58,8 +58,8 @@
             <center>0.5 0.5</center>
           </distortion>
           <image>
-            <width>640</width>
-            <height>480</height>
+            <width>1280</width>
+            <height>720</height>
             <format>R8G8B8</format>
           </image>
           <clip>
