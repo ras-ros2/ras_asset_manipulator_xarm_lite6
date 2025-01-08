@@ -237,7 +237,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="$(find xarm_description)/meshes/camera/realsense/meshes/realsense.dae" />
+            filename="package://xarm_description/meshes/camera/realsense/meshes/realsense.dae" />
         </geometry>
         <material
           name="">
@@ -250,7 +250,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="$(find xarm_description)/meshes/camera/realsense/meshes/realsense.dae" />
+          filename="package://xarm_description/meshes/camera/realsense/meshes/realsense.dae" />
       </geometry>
       <material
         name="">
