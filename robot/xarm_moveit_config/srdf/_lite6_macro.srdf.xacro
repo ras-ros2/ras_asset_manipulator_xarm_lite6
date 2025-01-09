@@ -55,5 +55,13 @@
     <disable_collisions link1="${prefix}link3" link2="${prefix}link_eef" reason="Never" />
     <disable_collisions link1="${prefix}link5" link2="${prefix}link_eef" reason="Never" />
     <disable_collisions link1="${prefix}link6" link2="${prefix}link_eef" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_base" link2="${prefix}realsense_camera" reason="Never" />
+    <disable_collisions link1="${prefix}link1" link2="${prefix}realsense_camera" reason="Never" />
+    <disable_collisions link1="${prefix}link2" link2="${prefix}realsense_camera" reason="Never" />
+    <disable_collisions link1="${prefix}link3" link2="${prefix}realsense_camera" reason="Never" />
+    <disable_collisions link1="${prefix}link4" link2="${prefix}realsense_camera" reason="Never" />
+    <disable_collisions link1="${prefix}link5" link2="${prefix}realsense_camera" reason="Never" />
+    <disable_collisions link1="${prefix}link6" link2="${prefix}realsense_camera" reason="Never" />
+
   </xacro:macro>
 </robot>
